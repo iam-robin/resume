@@ -602,17 +602,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'\/img\/sprite1\.png\'\)\] {
-  background-image: url('/img/sprite1.png');
-}
-.bg-cover {
-  background-size: cover;
-}
-.bg-top {
-  background-position: top;
-}
 .fill-current {
   fill: currentColor;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.object-top {
+  -o-object-position: top;
+     object-position: top;
 }
 .p-4 {
   padding: 1rem;
@@ -771,8 +770,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
-.hover\:bg-bottom:hover {
-  background-position: bottom;
+.hover\:object-top:hover {
+  -o-object-position: top;
+     object-position: top;
 }
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
@@ -888,6 +888,26 @@ Ensure the default browser behavior of the `hidden` attribute.
     top: 1rem;
   }
 
+  .md\:left-6 {
+    left: 1.5rem;
+  }
+
+  .md\:top-6 {
+    top: 1.5rem;
+  }
+
+  .md\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
+  .md\:bottom-5 {
+    bottom: 1.25rem;
+  }
+
+  .md\:top-5 {
+    top: 1.25rem;
+  }
+
   .md\:mr-0 {
     margin-right: 0px;
   }
@@ -952,6 +972,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .md\:text-center {
