@@ -876,32 +876,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     right: auto;
   }
 
-  .md\:bottom-4 {
-    bottom: 1rem;
-  }
-
-  .md\:left-4 {
-    left: 1rem;
-  }
-
-  .md\:top-4 {
-    top: 1rem;
+  .md\:bottom-5 {
+    bottom: 1.25rem;
   }
 
   .md\:left-6 {
     left: 1.5rem;
-  }
-
-  .md\:top-6 {
-    top: 1.5rem;
-  }
-
-  .md\:bottom-6 {
-    bottom: 1.5rem;
-  }
-
-  .md\:bottom-5 {
-    bottom: 1.25rem;
   }
 
   .md\:top-5 {
@@ -967,11 +947,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
-  }
-
-  .md\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
   }
 
   .md\:py-8 {
